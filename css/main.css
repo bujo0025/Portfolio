@@ -1,0 +1,124 @@
+:root{
+    --bs-primary: #15064C;
+    --bs-primary-rgb: 21, 6, 76;
+    --bs-secondary: #0C042D;
+    --bs-secondary-rgb: 12, 4, 45;
+    --bs-info: #FE3F97;
+    --bs-info-rgb: 254, 63, 151;
+    --bs-danger: #3DADFF;
+    --bs-danger-rgb: 61, 173, 255;
+}
+
+body {
+    color: white;
+}
+
+.footer {
+    padding: 1rem;
+    text-align: center;
+}
+.footer img {
+    height: 4rem;
+}
+
+.carousel-container {
+    max-width: 800px;
+    margin: auto;
+}
+
+.carousel-inner img {
+    height: 400px;
+    width: 100%; /* Makes sure the images scale properly */
+    object-fit: cover; /* Ensures the image fills the space while maintaining proportions */
+}
+
+.carousel-item img {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    height: auto;
+    border-radius: 10px;
+}
+h1 {
+    font-family: 'outrun future';
+}
+
+h2 {
+    font-family: 'outrun future';
+}
+
+h3 {
+    font-family: 'outrun future';
+}
+
+.col-md-4 {
+    font-family: 'martyric personal use only';
+    line-height: 5rem;
+}
+
+p {
+    font-size: 1.5rem;
+}
+
+.container-fluid {
+    font-family: 'outrun future';
+}
+
+footer {
+    font-family: 'outrun future';
+}
+
+.about-image {
+    max-width: 100%;
+    border-radius: 40px;
+}
+
+.new-art {
+    border-radius: 60px;
+}
+
+.about-heading {
+    font-family: 'outrun future';
+}
+
+.social-icon {
+    font-size: 2rem;
+    color: #3DADFF;
+}
+.contact-form-container {
+    background-color: #3D11DD;
+    padding: 20px;
+    border-radius: 10px;
+}
+.form-control {
+    background-color: #3DADFF;
+    border: none;
+}
+.btn-send {
+    background-color: #0C042D;
+    color: white;
+}
+
+.skip-link {
+    position: absolute;
+    color: #3DADFF;
+    background: #0C042D;
+    text-decoration: none;
+    padding: 0.5rem 1.5rem;
+    transform: translateY(-175%);
+    left: 1rem;
+    border-radius: 10px;
+    transition: transform 350ms ease-in;
+    z-index: 11;
+    /* skips links that come from off screen, made to look like buttons on the website to make it fit in */
+  }
+
+  .skip-link:focus {
+    transform: translateY(25%);
+  }
+
+  
+html {
+    scroll-behavior: smooth;
+  }
+  /* makes scroll smooth when skip links are used */

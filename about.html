@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <!-- bootstrap css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <!-- bootstrap icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <!-- custom css -->
+    <link rel="stylesheet" href="css/main.css">
+
+</head>
+<body class="bg-primary" itemscope itemtype="https://schema.org/WebPage"> 
+
+   <!-- Skip Links -->
+   <nav aria-label="Skip Links">
+    <a href="#main" class="skip-link">Skip to About Me</a>
+    <a href="#style" class="skip-link">Skip to My Style</a>
+    <a href="#work" class="skip-link">Skip to Work</a>
+    <a href="#footer" class="skip-link">Skip to Footer</a>
+</nav>
+
+<header role="banner">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary" role="navigation" aria-label="Main Navigation" itemscope itemtype="https://schema.org/SiteNavigationElement">
+        <div class="container-fluid">
+            <a class="navbar-brand mt-4 ms-3" href="index.html">
+                <img src="images/imglogo.png" alt="DSM Logo" height="80">
+            </a>
+            <button class="navbar-toggler me-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" 
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto pe-4">
+                    <li class="nav-item"><a class="nav-link text-info fs-4 fw-bold" href="index.html" role="menuitem">Home</a></li>
+                    <li class="nav-item"><a class="nav-link text-info fs-4 fw-bold" href="about.html" role="menuitem">About Me</a></li>
+                    <li class="nav-item"><a class="nav-link text-info fs-4 fw-bold" href="contact.html" role="menuitem">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+        
+
+    <div class="container-fluid bg-primary banner-container position-relative px-3 py-2" role="img" aria-label="Banner with header image">
+        <img src="images/header2.png" class="img-fluid w-100 header-image mb-4" alt="Header Image of Davin Bujold">
+        <div class="position-absolute top-0 start-0 w-100 h-100 bg-dark bg-opacity-50 d-flex align-items-center justify-content-center">
+            <h1 class="fw-bold text-uppercase text-info display-1" role="heading">About Me</h1>
+        </div>
+    </div>
+</header>
+
+    <main>
+        <div class="container mb-5 mt-4" id="main" itemscope itemtype="https://schema.org/AboutPage">
+            <div class="row d-flex align-items-center about-section flex-column flex-md-row">
+                <!-- Image Column -->
+                <div class="col-12 col-md-6 text-center order-1 order-md-1 mt-5">
+                    <img src="images/davin.png" alt="Photo of Davin as a child" class="about-image mb-5 img-fluid p-4" role="img">
+                </div>
+                <!-- Text Column -->
+                <div class="col-12 col-md-6 text-center text-md-start order-2 order-md-2" itemscope itemtype="https://schema.org/Person">
+                    <h2 class="about-heading display-3 text-info" role="heading">WHO IS DAVIN?</h2>
+                    <p class="fw-bold mt-4">
+                        I’m a creative professional with a passion for design, technology, and visual storytelling.
+                        With a background in graphic design, web development, and illustration, I love bringing ideas
+                        to life through digital and visual media.
+                    </p>
+                    <p class="fw-bold mb-5">
+                        Currently studying at Algonquin College, I’m always expanding my skills and exploring new ways
+                        to merge aesthetics with functionality. Whether designing sleek websites, crafting compelling graphics,
+                        or capturing moments through photography, I strive to create work that is both visually engaging and
+                        purposeful.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="container" id="style">
+            <div class="row align-items-center about-section">
+                <!-- Image Column (Above on Mobile, Right on Desktop) -->
+                <div class="col-12 col-md-6 text-center mt-5 order-1 order-md-2">
+                    <img src="images/gd.jpg" alt="Graphic Design piece created by Davin Bujold" class="about-image mb-5 img-fluid p-4" role="img">
+                </div>
+        
+                <!-- Text Column (Below on Mobile, Left & Right-Aligned on Desktop) -->
+                <div class="col-12 col-md-6 order-2 order-md-1 text-center text-md-end" itemscope itemtype="https://schema.org/CreativeWork">
+                    <h2 class="about-heading display-3 text-info" role="heading">My Style Of Art!</h2>
+                    <p class="fw-bold mt-4">
+                        My art style is a blend of bold visuals and thought-provoking concepts, often exploring dystopian themes and alternate realities. 
+                        I enjoy creating immersive worlds that challenge perception, using striking contrasts, dynamic compositions, and rich textures to evoke emotion. 
+                        Whether through digital illustration, graphic design, or photography, my work often carries a sense of intrigue, blending futuristic elements with a raw, expressive edge.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="container mt-5" id="work">
+            <div class="row d-flex align-items-center text-center text-md-start">
+                <!-- Old Art -->
+                <div class="col-12 col-md-6 d-flex flex-column align-items-center" itemscope itemtype="https://schema.org/CreativeWork">
+                    <h3 class="text-info display-4 mb-4" role="headings">PRE IMD ART</h3>
+                    <img src="images/drawing1.jpg" class="img-fluid rounded shadow mb-5 p-3" alt="Rough sketch of character created by Davin Bujold" role="img">
+                </div>
+                
+                <!-- New Art -->
+                <div class="col-12 col-md-6 d-flex flex-column align-items-center" itemscope itemtype="https://schema.org/CreativeWork">
+                    <h3 class="text-info display-4 mb-4" role="heading">POST IMD ART</h3>
+                    <img src="images/drawing2.png" class="img-fluid rounded shadow mb-5 p-3" alt="Graphic Design piece created by Davin Bujold" role="img">
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer mt-5 py-4 bg-secondary text-white" id="footer" itemscope itemtype="https://schema.org/WPFooter">
+        <div class="container">
+            <div class="row align-items-center text-center text-md-start">
+                <!-- Navigation Links -->
+                <div class="col-12 col-md-6 d-flex justify-content-center justify-content-md-start flex-wrap">
+                    <a href="index.html" class="text-info mx-3 fs-5 fw-bold" role="link">Home</a>
+                    <a href="about.html" class="text-info mx-3 fs-5 fw-bold" role="link">About Me</a>
+                    <a href="contact.html" class="text-info mx-3 fs-5 fw-bold" role="link">Contact</a>
+                    <a href="https://www.algonquincollege.com/mediaanddesign/program/interactive-media-design/#summary" class="text-info mx-3 fs-5 fw-bold" role="link">IMD Program</a>
+                </div>
+    
+                <!-- Copyright & Social Links -->
+                <div class="col-12 col-md-6 text-center text-md-end mt-3 mt-md-0">
+                    <p class="text-info fw-bold">&copy; DAVIN'S MIND COPYRIGHT</p>
+                    <div class="d-flex justify-content-center justify-content-md-end">
+                        <a href="https://www.instagram.com/" class="text-danger mx-2 fs-3" role="link">
+                            <i class="bi bi-instagram"></i> <span class="visually-hidden">Instagram</span>
+                        </a>
+                        <a href="https://x.com/i/flow/login?lang=en" class="text-danger mx-2 fs-3" role="link">
+                            <i class="bi bi-twitter"></i> <span class="visually-hidden">Twitter</span>
+                        </a>
+                        <a href="https://github.com/bujo0025" class="text-danger mx-2 fs-3" role="link">
+                            <i class="bi bi-github"></i> <span class="visually-hidden">GitHub</span>
+                        </a>
+                        <a href="https://www.youtube.com/@DavinsVideography" class="text-danger mx-2 fs-3" role="link">
+                            <i class="bi bi-youtube"></i> <span class="visually-hidden">YouTube</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
